@@ -1,0 +1,14 @@
+{
+  "eagle3": {
+    "main_model": {
+      "gpu_index": 1,
+      "model_path_env": "MODEL_PATH_MAIN",
+      "model_path_default": "./models/main_model.gguf"
+    },
+    "helper_model": {
+      "gpu_index": 0,
+      "model_path_env": "MODEL_PATH_HELPER",
+      "model_path_default": "./models/helper_model.gguf"
+    }
+  }
+}
